@@ -30,7 +30,7 @@
         [sender setTitle:@"A very medium title for this button"
                 forState:UIControlStateNormal];
     } else {
-        [sender setTitle:@"A short title" forState:UIControlStateNormal];
+        [sender setTitle:@"A teeny title" forState:UIControlStateNormal];
     }
 }
 @end
