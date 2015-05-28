@@ -26,7 +26,7 @@
 
 - (IBAction)buttonTapped:(UIButton *)sender
 {
-    NSLog(@"COMMIT TO FEATURE BRANCH");
+    NSLog(@"COMMIT TO FEATURE BRANCH A LOT");
     NSLog(@"..THEN COMMIT TO MASTER MORE");
     if ([[sender titleForState:UIControlStateNormal] isEqualToString:@"X"]) {
         [sender setTitle:@"A very medium title for this button"
