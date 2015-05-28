@@ -27,7 +27,7 @@
 - (IBAction)buttonTapped:(UIButton *)sender
 {
     if ([[sender titleForState:UIControlStateNormal] isEqualToString:@"X"]) {
-        [sender setTitle:@"A very long title for this button"
+        [sender setTitle:@"A very medium title for this button"
                 forState:UIControlStateNormal];
     } else {
         [sender setTitle:@"A short title" forState:UIControlStateNormal];
