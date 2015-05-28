@@ -26,6 +26,7 @@
 
 - (IBAction)buttonTapped:(UIButton *)sender
 {
+    NSLog(@"another change on the feature/cleaning end here");
     if ([[sender titleForState:UIControlStateNormal] isEqualToString:@"X"]) {
         [sender setTitle:@"A very medium title for this button"
                 forState:UIControlStateNormal];
