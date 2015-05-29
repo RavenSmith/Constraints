@@ -26,7 +26,7 @@
 
 - (IBAction)buttonTapped:(UIButton *)sender
 {
-    NSLog(@"this is a very crafty log");
+    NSLog(@"this is a craftier log");
     if ([[sender titleForState:UIControlStateNormal] isEqualToString:@"X"]) {
         [sender setTitle:@"A very medium title for this button"
                 forState:UIControlStateNormal];
